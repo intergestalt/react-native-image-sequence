@@ -50,3 +50,10 @@ You can change if animation loops indefinitely by setting the `loop` property.
   loop={false}
   />
 ```
+
+### Use file uri
+
+```javascript
+const images = [ { uri: '/data/user/0/com.camapp/cache/Camera/image-1.jpg' }, { uri: '/data/user/0/com.camapp/cache/Camera/image-2.jpg' } ];
+```
+thanks to https://github.com/mblenton
